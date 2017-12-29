@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=750,user-scalable=no">
+		<title>正弘源筑H5宣传页</title>
+		<link rel="shortcut icon" type="image/ico" href="./img/favicon.ico" />
+		<link href="https://cdn.bootcss.com/Swiper/4.0.7/css/swiper.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="./css/swiper.animate.min.css" />
+		<style type="text/css">
+			html,body{margin: 0;padding: 0;width: 750px !important;height: 1206px !important;position: relative;background: url(./img/bg.jpg) top left no-repeat;background-size: 750px 1333px;}
+			.swiper-container {width: 100%;height: 100%;}
+			.swiper-container .bgImg{display: block;width: 100%;height: 100%;}
+
+			.swiper-container .bgImg1-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg1-2{position: absolute;left: 50px;top: 45px;}
+			.swiper-container .bgImg1-3{position: absolute;left: 163px;top: 461px;}
+
+			.swiper-container .bgImg2-1{position: absolute;left: 0px;top: 0px;width: 868px;}
+			.swiper-container .bgImg2-2{position: absolute;left: 350px;top: 255px;}
+			.swiper-container .bgImg2-3{position: absolute;left: 50px;top: 590px;}
+			.swiper-container .bgImg2-4{position: absolute;left: 350px;top: 986px;}
+			.swiper-container .bgImg2-5{position: absolute;left: 50px;top: 45px;}
+
+			.swiper-container .bgImg3-1{position: absolute;left: 0px;top: 0px;width: 868px;}
+			.swiper-container .bgImg3-2{position: absolute;left: 350px;top: 255px;}
+			.swiper-container .bgImg3-3{position: absolute;left: 167px;top: 1142px;}
+			.swiper-container .bgImg3-4{position: absolute;left: 50px;top: 45px;}
+			.swiper-container .bgImg3-5{position: absolute;left: 430px;top: 130px;}
+
+			.swiper-container .bgImg4-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg4-2{position: absolute;left: 180px;top: 194px;}
+			.swiper-container .bgImg4-3{position: absolute;left: 0px;top: 960px;}
+			.swiper-container .bgImg4-4{position: absolute;left: 50px;top: 45px;}
+
+			.swiper-container .bgImg5-1{position: absolute;left: 0px;top: 0px;width: 868px;}
+			.swiper-container .bgImg5-2{position: absolute;left: 210px;top: 210px;}
+			.swiper-container .bgImg5-3{position: absolute;left: 536px;top: 1092px;}
+			.swiper-container .bgImg5-4{position: absolute;left: 50px;top: 45px;}
+
+			.swiper-container .bgImg6-1{position: absolute;left: 0px;top: 0px;width: 868px;}
+			.swiper-container .bgImg6-2{position: absolute;left: 350px;top: 160px;}
+			.swiper-container .bgImg6-3{position: absolute;left: 0px;top: 965px;}
+			.swiper-container .bgImg6-4{position: absolute;left: 50px;top: 45px;}
+
+			.swiper-container .bgImg7-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg7-2{position: absolute;left: 0px;top: 210px;}
+			.swiper-container .bgImg7-3{position: absolute;left: 496px;top: 148px;}
+			.swiper-container .bgImg7-4{position: absolute;left: 50px;top: 45px;}
+
+			.swiper-container .bgImg8-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg8-2{position: absolute;left: 324px;top: 210px;}
+			.swiper-container .bgImg8-3{position: absolute;left: 220px;top: 146px;}
+			.swiper-container .bgImg8-4{position: absolute;left: 50px;top: 45px;}
+
+			.swiper-container .bgImg9-1{position: absolute;left: 0px;top: 0px;width: 868px;}
+
+			.swiper-container .bgImg10-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg10-2{position: absolute;left: 110px;top: 638px;}
+			.swiper-container .bgImg10-3{position: absolute;left: 432px;top: 1000px;}
+
+			.swiper-container .bgImg11-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg11-2{position: absolute;left: 106px;top: 140px;}
+			.swiper-container .bgImg11-3{position: absolute;left: 432px;top: 1000px;}
+
+			.swiper-container .bgImg12-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg12-2{position: absolute;left: 108px;top: 444px;}
+			.swiper-container .bgImg12-3{position: absolute;left: 410px;top: 86px;}
+
+			.swiper-container .bgImg13-1{position: absolute;left: 0px;top: 0px;}
+			.swiper-container .bgImg13-2{position: absolute;left: 0px;top: 1064px;}
+			.swiper-container .bgImg13-3{position: absolute;left: 534px;top: 974px;}
+			.swiper-container .bgImg13-4{position: absolute;left: 336px;top: 232px;}
+			.swiper-container .bgImg13-5{position: absolute;left: 192px;top: 80px;}
+
+			.audio{position: fixed;top: 36px;right: 36px;z-index: 10;}
+			.audio .audioImg{display: block;width: 64px;height: 64px;}
+			.audio .audioImg.rot{
+				animation:rot 3s linear infinite;
+				-moz-animation:rot 3s linear infinite; /* Firefox */
+				-webkit-animation:rot 3s linear infinite; /* Safari and Chrome */
+				-o-animation:rot 3s linear infinite; /* Opera */
+
+				animation-fill-mode: forwards;
+				-moz-animation-fill-mode: forwards; /* Firefox */
+				-webkit-animation-fill-mode: forwards; /* Safari and Chrome */
+				-o-animation-fill-mode: forwards; /* Opera */}
+			.audio .audioSource{display: none;}
+			@keyframes rot
+			{
+				0% {
+				    transform: rotate(0deg);
+				}
+				100% {
+				    transform: rotate(1turn);
+				}
+			}
+
+			@-moz-keyframes myfirst /* Firefox */
+			{
+				0% {
+				    transform: rotate(0deg);
+				}
+				100% {
+				    transform: rotate(1turn);
+				}
+			}
+
+			@-webkit-keyframes myfirst /* Safari and Chrome */
+			{
+				0% {
+				    transform: rotate(0deg);
+				}
+				100% {
+				    transform: rotate(1turn);
+				}
+			}
+
+			@-o-keyframes myfirst /* Opera */
+			{
+				0% {
+				    transform: rotate(0deg);
+				}
+				100% {
+				    transform: rotate(1turn);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 轮播组 -->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg1-1" src="./img/m1-1.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg1-2" src="./img/m1-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg1-3" src="./img/m1-3.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg2-1" src="./img/m2-1-L.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg2-2" src="./img/m2-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg2-3" src="./img/m2-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg2-4" src="./img/m2-4.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg2-5" src="./img/m1-2.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg3-1" src="./img/m3-1-R.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg3-2" src="./img/m3-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg3-3" src="./img/m3-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg3-4" src="./img/m3-4.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg3-5" src="./img/m3-5.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg4-1" src="./img/m4-1-big.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg4-2" src="./img/m4-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg4-3" src="./img/m4-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg4-4" src="./img/m3-4.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg5-1" src="./img/m5-1-L.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg5-2" src="./img/m5-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg5-3" src="./img/m5-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg5-4" src="./img/m3-4.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg6-1" src="./img/m6-1-R.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg6-2" src="./img/m6-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg6-3" src="./img/m6-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg6-4" src="./img/m1-2.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg7-1" src="./img/m7-1-big.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg7-2" src="./img/m7-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg7-3" src="./img/m7-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg7-4" src="./img/m1-2.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg8-1" src="./img/m8-1-big.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg8-2" src="./img/m8-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg8-3" src="./img/m8-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg8-4" src="./img/m1-2.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg9-1" src="./img/m9-1-L.jpg">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg10-1" src="./img/m10-1.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg10-2" src="./img/m10-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg10-3" src="./img/m10-3.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg11-1" src="./img/m11-1.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg11-2" src="./img/m11-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg11-3" src="./img/m10-3.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg12-1" src="./img/m12-1.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg12-2" src="./img/m12-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg12-3" src="./img/m10-3.png">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" class="ani bgImg bgImg13-1" src="./img/m13-1.jpg">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg13-2" src="./img/m13-2.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg13-3" src="./img/m13-3.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg13-4" src="./img/m13-4.png">
+		        	<img swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" class="ani bgImg13-5" src="./img/m13-5.png">
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <!-- <div class="swiper-pagination"></div> -->
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <!-- <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div> -->
+		    
+		    <!-- 如果需要滚动条 -->
+		    <div class="swiper-scrollbar"></div>
+		</div>
+		<!-- 音乐控制 -->
+		<div class="audio">
+			<img class="audioImg rot" src="./img/music.svg">
+			<audio class="audioSource" controls>
+			  <source src="./img/music.mp3" type="audio/mp3">
+			  <p>您的浏览器不支持Audio标签,请点击<a href="./img/music.mp3">这里</a>直接播放.</p>
+			</audio>
+		</div>
+
+	</body>
+	<script src="https://cdn.bootcss.com/Swiper/4.0.7/js/swiper.min.js"></script>
+	<script src="./js/swiper.animate.min.js"></script>
+	<script>
+		//轮播控制
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'vertical',
+		    // loop: true,
+		    
+		    // 如果需要分页器
+		    // pagination: {
+		    //   el: '.swiper-pagination',
+		    // },
+		    
+		    // 如果需要前进后退按钮
+		    // navigation: {
+		    //   nextEl: '.swiper-button-next',
+		    //   prevEl: '.swiper-button-prev',
+		    // },
+		    
+		    // 如果需要滚动条
+		    scrollbar: {
+		      el: '.swiper-scrollbar',
+		    },
+		    on:{
+		          init: function(){
+		            swiperAnimateCache(this); //隐藏动画元素 
+		            swiperAnimate(this); //初始化完成开始动画
+		          }, 
+		          slideChangeTransitionEnd: function(){ 
+		            swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+		          } 
+		        }
+		  })
+
+		//音乐控制
+		var music=document.querySelector(".audioSource");
+		var audio=document.querySelector(".audioImg");
+		var swich=true;
+		audio.addEventListener("click",function(){
+			if(swich){music.pause();swich=false;audio.classList.remove("rot");}
+			else{music.play();swich=true;audio.classList.add("rot");}
+		})
+	  </script>
+	</body>
+</html>
